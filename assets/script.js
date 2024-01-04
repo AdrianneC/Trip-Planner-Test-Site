@@ -56,7 +56,7 @@ $("#search-form").on("submit", function (event) {
 
   // Create column for current weather
   var $firstDayContainer = $("<div class='col-md-12 mx-auto text-center mb-4 firstDay'>");
-  $firstDayContainer.append("<h2>" + weatherData.city.name + "</h2>");
+  $firstDayContainer.append("<h2>" + 'Todays Forecast In ' + weatherData.city.name + "</h2>");
   $firstDayContainer.append("<p>Date: " + currentWeather.dt_txt.split(' ')[0] + "</p>");
   var iconUrl = "https://openweathermap.org/img/w/" + currentWeather.weather[0].icon + ".png";
   $firstDayContainer.append("<img src='" + iconUrl + "' alt='Weather Icon'>");

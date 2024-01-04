@@ -243,7 +243,7 @@ h1 {
 
 .firstDay {
   color: white;
-  background-color:#b7b6b6;
+  background-color:#64666a;
   font-size: 22px;
   font-family: 'Oswald';
   padding-top: 30px;
@@ -261,6 +261,7 @@ h1 {
   margin-left: 50px;
   font-size: 18px;
   font-family: 'Oswald';
+  padding-bottom: 15px;
 
 }
 

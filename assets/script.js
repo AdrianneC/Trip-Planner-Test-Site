@@ -63,7 +63,7 @@ $("#search-form").on("submit", function (event) {
   var temperatureCelsius = (currentWeather.main.temp - 273.15).toFixed(2);
   $firstDayContainer.append("<p>Temperature: " + temperatureCelsius + " °C</p>");
   $firstDayContainer.append("<p>Humidity: " + currentWeather.main.humidity + "%</p>");
-  $firstDayContainer.append("<p>Wind Speed: " + currentWeather.wind.speed + " m/s</p>");
+  
   
 
   // Append current weather column to row
@@ -84,7 +84,7 @@ $("#search-form").on("submit", function (event) {
     $forecastContainer.append("<img src='" + forecastIconUrl + "' alt='Weather Icon'>");
     $forecastContainer.append("<p>Temperature: " + (forecast.main.temp - 273.15).toFixed(2) + " °C</p>");
     $forecastContainer.append("<p>Humidity: " + forecast.main.humidity + "%</p>");
-    $forecastContainer.append("<p>Wind Speed: " + forecast.wind.speed + " m/s</p>");
+   
 
     // Append forecast day container to forecast column
     $forecastColumn.append($forecastContainer);

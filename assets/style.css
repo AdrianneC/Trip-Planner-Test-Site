@@ -1,0 +1,265 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #1f2022 !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+    font-size: 22px;
+    font-family: 'Oswald';
+  }
+  
+
+  /* footer */
+  .card-body-contact {
+      text-align: center;
+  }
+
+  .col-contact {
+    width: 30%;
+    margin-top: 20px;
+  }
+
+  /* Body1 */
+
+  .page1Body{
+    background-image: url(./images/depositphotos_470688070-stock-photo-top-view-travel-concept.jpg);
+  }
+
+  .body1Custom-btn{
+    margin-left: 150px;
+  }
+ 
+  .cityRow1{
+    padding-top: 50px;
+    padding-left: 70px;
+  }
+  .cities1{
+   
+    border-radius: 20px;
+    height: auto;
+    padding-top: 50px;
+    background-color:  rgb(190, 190, 190);;
+  }
+  .city1-title{
+    text-align: center;
+  }
+  .Attr1{
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    background-color:   rgb(190, 190, 190);;
+   margin-left: 100px;
+  }
+  .Attr1-body{
+    border-radius: 20px;
+  }
+  /* Body 2 */
+  .cityRow2{
+    padding-top: 50px;
+    padding-left: 70px;
+  }
+  .cities2{
+    border: solid;
+    border-radius: 20px;
+    height: 700px;
+    padding-top: 50px;
+    background-color:  rgb(225, 233, 232);;
+  }
+  .city-title{
+    text-align: center;
+  }
+  .Attr2{
+    height: 180px;
+    border: solid;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+    background-color:  rgb(225, 233, 232);;
+    margin-left: 100px;
+  }
+  .Attr2-body{
+    border-radius: 20px;
+  }
+  /* Body 3*/
+  .img1{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    border: solid;
+   margin-top: 50px;
+   margin-left: 80px;
+   background-color:  rgb(225, 233, 232);;
+  }
+  .img2{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-color: rgb(225, 233, 232);
+  } 
+  
+
+  .custom-btn {
+    width: 323px;
+   }
+
+
+.jumbo-box {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  font-family: 'Oswald' ;
+}
+
+.navbar-logo {
+  max-width: 100%;
+  height: auto;
+  width: 150%;
+  border-radius: 25px;
+}
+
+.description {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  
+}
+
+
+.city-text {
+  color: white;
+  
+}
+
+
+  /* Body 3*/
+
+  .footer-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 0.25rem solid #000000;
+  }
+  
+
+    /* Footer 3*/
+
+.footer-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 0.25rem solid #000000;
+}
+
+.city-button {
+  display: block;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  background-color: #1f2022;
+  color: #fff;
+  border: 1px solid #1f2022;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.city-button:hover {
+  background-color: #1f2022;
+}
+
+#clear-history {
+  
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #3a4149 !important;
+  background: #e7ebee;
+  line-height: 1.15;
+  font-size: 16px;
+}
+
+
+#clear-history:hover {
+  transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #ffbc2e;
+}
+
+  /* Button 3*/
+
+  .btn {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff !important;
+    background: #ffbc2e;
+    line-height: 1.15;
+    font-size: 16px;
+
+  }
+
+  .btn:hover {
+    transition: all .1s ease;
+    background: #ffbc2e;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #ffbc2e;
+}
+  .forecast-day{
+    background-color: rgb(225, 233, 232);
+    width: 250px;
+    display: flexbox;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+
+.forecast-container {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 200px; */
+}
+
+.firstDay {
+  color: white;
+  background-color: #2D3E50;
+}
+
+
+
+.forecast-day {
+  background-color: #2D3E50;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  margin-left: 50px;
+}
+

@@ -265,3 +265,13 @@ h1 {
 
 }
 
+
+.searchResultsbox {
+  margin-top: 25px;
+}
+
+.searchResultsbox h2 {
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: 'Oswald';
+}

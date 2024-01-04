@@ -292,3 +292,15 @@ h1 {
 .carousel-indicators li.active {	
 	background: #555;
 }
+
+.carouselModal {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.modal-title {
+  font-family: 'Oswald';
+}
+
+.modal-body {
+  font-family: 'Varela Round', sans-serif;
+}
